@@ -1,0 +1,47 @@
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  font-size: 15px;
+  height: 43px;
+}
+body, body [role="main"], body .main{
+  background-image: none;
+  color: #240F0B;
+}
+.block-ckan-search{
+  display: none;
+}
+.navbar .nav > li > a{
+  text-shadow: none;
+  padding-bottom: 19.5px;
+  padding-top: 19.5px;
+}
+
+body [role="main"] .primary {
+    width: 80%;
+}
+body [role="main"] .secondary {
+    width: 19.3%;
+}
+.dataset-heading a{
+  color: #1FA5A4;
+}
+.main .resource-item{
+  padding: 15px 10px 20px 60px;
+}
+.region-footer .block-multiblock{
+  float: right;
+}
+.region-footer .search-form {
+    border-bottom: medium none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+form.search-form input{
+  border-color: #1FA5A4;
+}
+form.search-form input:focus{
+  border-color: #136766;
+}
+.footer{
+    border-top: medium none;
+    margin-top: 0;
+}
